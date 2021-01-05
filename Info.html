@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Jake Webster</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div id = "Name">
-        <h1>
+    <div id = "name">
+        <h1 class = "title">
             <strong>Jake Webster</strong>
         </h1>
     </div>
-    <div id = "Intro">
-        <h2>
-            <strong>About Me</strong>
-        </h2>
+
+    <h2 class = "title">
+        <strong>About Me</strong>
+    </h2>
+    <div id = "intro">
         <p>
             Hi, my name is Jake Webster and I am a sophomore at the University of California, Berkeley.
             I have lived in the Bay Area my entire life, and currently reside in Los Altos. I am interested
@@ -25,10 +27,10 @@
 
     <br>
 
-    <div id = "School">
-        <h2>
-            <strong>My Classes</strong>
-        </h2>
+    <h2 class = "title">
+        <strong>My Classes</strong>
+    </h2>
+    <div id = "school">
         <h4>
             Some of the classes I have taken or am taking include:
         </h4>
@@ -48,10 +50,10 @@
 
     <br>
 
-    <div id = "Skills">
-        <h2>
-            <strong>Languages and Skills</strong>
-        </h2>
+    <h2 class = "title">
+        <strong>Languages and Skills</strong>
+    </h2>
+    <div id = "skills">
         <h4>
             In order of experience, some languages I program in include:
         </h4>
@@ -87,33 +89,40 @@
 
     <br>
 
-    <div id = "Projects">
-        <h2>
-            <strong>My Projects</strong>
-        </h2>
-        <h4>World Generation</h4>
-        <img src="images/byow.jpg" alt="Visual of the map with paths toggled"/>
-        <p><em>Java</em> Players attempt to avoid pathfinding enemies in a pseudorandomly generating world.</p>
+    <h2>
+        <strong>My Projects</strong>
+    </h2>
+    <div id = "projects">
+        <!-- <h4>World Generation</h4> -->
+        <div class = "byow img">
+            <p class = "imgtext"><em>Java</em> Players attempt to avoid pathfinding enemies in a pseudorandomly
+                generating world, or play in a custom-built world.</p>
+        </div>
 
-        <h4>Bearmaps</h4>
-        <img src="images/maps.jpg" alt="The map over the Cal campus"/>
-        <p><em>Java</em> Users interact with a dynamic map of the city of Berkeley and find the shortest path
-            between point A and point B.</p>
+        <!-- <h4>Bearmaps</h4> -->
+        <div class = "map img">
+            <p class = "imgtext"><em>Java</em> Users interact with a dynamic map of the city of Berkeley and find the
+                shortest path between point A and point B.</p>
+        </div>
 
-        <h4>Ants</h4>
-        <img src="images/ants.jpg" alt="The Bee swarm threatens the Ants"/>
-        <p><em>Python</em> In a parody of hit mobile game <em>Plants Vs. Zombies</em>, players attempt to
-            prevent the Bees from reaching the Ant Queen with a number of tactical Ants.</p>
+        <!-- <h4>Ants</h4> -->
+        <div class = "ants img">
+            <p class = "imgtext"><em>Python</em> In a parody of hit mobile game <em>Plants Vs. Zombies</em>, players attempt
+                to prevent the Bees from reaching the Ant Queen with a number of tactical Ants.</p>
+        </div>
 
-        <h4>Digital Guitar</h4>
-        <img src="images/guitar.jpg" alt="A messy string that outputs an elegant song"/>
-        <p><em>Java</em> Users can enter a sequence of characters and get a nice melody outputted using
-            the Karplus-Strong algorithm to convert the String to "plucking".</p>
+        <!-- <h4>Digital Guitar</h4> -->
+        <div class = "guitar img">
+            <p class = "imgtext"><em>Java</em> Users can enter a sequence of characters and get a nice melody
+                outputted using the Karplus-Strong algorithm to convert the String to "plucking".</p>
+        </div>
 
-        <h4>Stock Predictor</h4>
-        <img src="images/stocks.jpg" alt="A snippet of code from the project"/>
-        <p><em>Python</em> This was a group project to see whether a neural network trained on day-to-day
-            fluctuations and medium-term data such as financial reports could outperform the market.</p>
+        <!-- <h4>Stock Predictor</h4> -->
+        <div class = "stock img">
+            <p class = "imgtext"><em>Python</em> This was a group project to see whether a neural network trained on
+                day-to-day fluctuations and financial reports could outperform the market.</p>
+        </div>
+
     </div>
 </body>
 </html>

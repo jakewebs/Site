@@ -1,0 +1,80 @@
+/*Colors: https://www.w3schools.com/cssref/css_colors.asp */
+h2 {
+    color: #000080;
+    border: 3px solid #F5F5F5;
+    padding: 5px;
+    width: 25%;
+}
+
+body {
+    /*text-align: center;*/
+    /*background-color: #D8BFD8;*/
+    background-color: #A0A0A0;
+    width: 100%;
+    justify-self: center;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+#name {
+    color: #FFD700;
+}
+
+h4, p, li {
+    font-family: "Monaco";
+    color: #F5F5F5;
+}
+
+.title {
+    font-family: "Georgia";
+}
+
+.byow {
+    background-image: url("images/byow.jpg");
+}
+
+.map {
+   background-image: url("images/maps.jpg");
+}
+
+.ants {
+   background-image: url("images/ants.jpg");
+}
+
+.guitar {
+    background-image: url("images/guitar.jpg");
+}
+
+.stock {
+    background-image: url("images/stocks.jpg");
+}
+
+.img p:hover {
+    background-color: #000080;
+    height: 100%;
+    top: 0%;
+    font-size: 4vmin;
+}
+
+.img {
+    background-position: center;
+    height: 550px;
+    width: 800px;
+    text-align: center;
+}
+.imgtext {
+    background-color: #000080;
+    opacity: 0.8;
+    height: 50px;
+    top: 88%;
+    position: relative;
+    font-size: 2.5vmin;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10%;
+}
