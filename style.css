@@ -1,4 +1,12 @@
 /*Colors: https://www.w3schools.com/cssref/css_colors.asp */
+
+/* Remove when construction done */
+#construction {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 5px;
+}
 h2 {
     color: #000080;
     border: 3px solid #F5F5F5;
