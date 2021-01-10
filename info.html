@@ -9,13 +9,46 @@
     <!-- Remove when construction complete :)-->
     <h3 id = "construction">Construction in progress! Formatting may be messy
         in the short term!</h3>
-    <div id = "name">
+    <div id = "menu" class = "dropdown">
         <h1 class = "title">
-            <strong>Jake Webster</strong> 
+            <strong>Jake Webster</strong>
         </h1>
+        <h1 class = "blank"></h1>
+        <h1><a href = "#contact_head">Contact</a></h1>
+        <h1><a href = "#about_head">About Me</a></h1>
+        <h1><a href = "#school_head">Classes</a></h1>
+        <h1><a href = "#skills_head">Skills</a></h1>
+        <h1><a href = "#projects_head">Projects</a></h1>
     </div>
 
-    <h2 class = "title">
+    <h2 id = "contact_head">
+        <strong>Contact Me</strong>
+    </h2>
+    <div id = "contact">
+        <a href= "https://www.facebook.com/profile.php?id=100009311455177">
+            <img src = "images/facebook.png" width = 38%
+                 alt = "Source: https://commons.wikimedia.org/wiki/File:Facebookisucande.png">
+        </a>
+        <a href= "mailto: jakewebs2@gmail.com">
+            <img src = "images/gmail.png" width = 35%
+                 alt = "Source: https://commons.wikimedia.org/wiki/File:Gmail_2020.png">
+        </a>
+        <a href= "https://www.linkedin.com/in/jake-webster23/">
+            <img src = "images/linkedin.png" width = 28%
+                 alt = "Source: https://www.flaticon.com/authors/freepik">
+        </a>
+        <!--<div>Icons made by
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+        <a href= "https://www.github.com/jakewebs">
+            <img src = "images/github.png" width = 28%
+                 alt = "Source: https://www.github.com">
+        </a>
+    </div>
+
+    <br>
+
+    <h2 id = "about_head">
         <strong>About Me</strong>
     </h2>
     <div id = "intro">
@@ -30,7 +63,7 @@
 
     <br>
 
-    <h2 class = "title">
+    <h2 id = "school_head">
         <strong>My Classes</strong>
     </h2>
     <div id = "school">
@@ -53,7 +86,7 @@
 
     <br>
 
-    <h2 class = "title">
+    <h2 id = "skills_head">
         <strong>Languages and Skills</strong>
     </h2>
     <div id = "skills">
@@ -92,40 +125,49 @@
 
     <br>
 
-    <h2>
+    <h2 id = "projects_head">
         <strong>My Projects</strong>
     </h2>
     <div id = "projects">
         <!-- <h4>World Generation</h4> -->
         <div class = "byow img">
-            <p class = "imgtext"><em>Java</em> Players attempt to avoid pathfinding enemies in a pseudorandomly
-                generating world, or play in a custom-built world.</p>
+            <a href = "byow.html">
+                <p class = "imgtext"><em>Java</em> Players attempt to avoid pathfinding enemies in a pseudorandomly
+                    generating world, or play in a custom-built world.</p>
+            </a>
         </div>
 
         <!-- <h4>Bearmaps</h4> -->
         <div class = "map img">
-            <p class = "imgtext"><em>Java</em> Users interact with a dynamic map of the city of Berkeley and find the
-                shortest path between point A and point B.</p>
+            <a href = "map.html">
+                <p class = "imgtext"><em>Java</em> Users interact with a dynamic map of the city of Berkeley and find the
+                    shortest path between point A and point B.</p>
+            </a>
         </div>
 
         <!-- <h4>Ants</h4> -->
         <div class = "ants img">
-            <p class = "imgtext"><em>Python</em> In a parody of hit mobile game <em>Plants Vs. Zombies</em>, players attempt
-                to prevent the Bees from reaching the Ant Queen with a number of tactical Ants.</p>
+            <a href = "ants.html">
+                <p class = "imgtext"><em>Python</em> In a parody of hit mobile game <em>Plants Vs. Zombies</em>, players attempt
+                    to prevent the Bees from reaching the Ant Queen with a number of tactical Ants.</p>
+            </a>
         </div>
 
         <!-- <h4>Digital Guitar</h4> -->
         <div class = "guitar img">
-            <p class = "imgtext"><em>Java</em> Users can enter a sequence of characters and get a nice melody
-                outputted using the Karplus-Strong algorithm to convert the String to "plucking".</p>
+            <a href = "guitar.html">
+                <p class = "imgtext"><em>Java</em> Users can enter a sequence of characters and get a nice melody
+                    outputted using the Karplus-Strong algorithm to convert the String to "plucking".</p>
+            </a>
         </div>
 
         <!-- <h4>Stock Predictor</h4> -->
         <div class = "stock img">
-            <p class = "imgtext"><em>Python</em> This was a group project to see whether a neural network trained on
-                day-to-day fluctuations and financial reports could outperform the market.</p>
+            <a href = "stock.html">
+                <p class = "imgtext"><em>Python</em> This was a group project to see whether a neural network trained on
+                    day-to-day fluctuations and financial reports could outperform the market.</p>
+            </a>
         </div>
-
     </div>
 </body>
 </html>
